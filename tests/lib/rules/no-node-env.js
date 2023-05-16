@@ -11,6 +11,8 @@ ruleTester.run("no-node-env", rule, {
   valid: [
     "var isDev = process.env.MY_CUSTOM_ENV_VAR === 'development';",
     "var foo;",
+    "var originalEnv = process.env",
+    "var process = process",
   ],
   invalid: [
     {
