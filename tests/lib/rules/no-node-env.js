@@ -8,7 +8,10 @@ const ruleTester = new RuleTester();
 const invalidCode = "var isDev = process.env.NODE_ENV === 'development'";
 
 ruleTester.run("no-node-env", rule, {
-  valid: ["var isDev = process.env.MY_CUSTOM_ENV_VAR === 'development';"],
+  valid: [
+    "var isDev = process.env.MY_CUSTOM_ENV_VAR === 'development';",
+    "var foo;",
+  ],
   invalid: [
     {
       code: invalidCode,
