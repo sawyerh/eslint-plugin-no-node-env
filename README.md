@@ -1,6 +1,6 @@
 # eslint-plugin-no-node-env
 
-Prevent usage of `process.env.NODE_ENV`.
+Prevent usage of `process.env.NODE_ENV`, which is probably not what you think it is. [Read more context here](/docs/rules/no-node-env.md).
 
 ## Installation
 
