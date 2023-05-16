@@ -1,4 +1,4 @@
-# Prevent usage of NODE_ENV (`no-node-env/no-node-env`)
+# no-node-env/no-node-env
 
 <!-- end auto-generated rule header -->
 

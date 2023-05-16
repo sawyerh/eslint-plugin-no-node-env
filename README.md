@@ -41,8 +41,8 @@ To only apply this rule to a subdirectory, like `src`, you can use the `override
 
 <!-- begin auto-generated rules list -->
 
-| Name                                     | Description               |
-| :--------------------------------------- | :------------------------ |
-| [no-node-env](docs/rules/no-node-env.md) | Prevent usage of NODE_ENV |
+| Name                                     |
+| :--------------------------------------- |
+| [no-node-env](docs/rules/no-node-env.md) |
 
 <!-- end auto-generated rules list -->

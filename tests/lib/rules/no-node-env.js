@@ -17,7 +17,8 @@ ruleTester.run("no-node-env", rule, {
       code: invalidCode,
       errors: [
         {
-          message: "Usage of process.env.NODE_ENV is not allowed",
+          message:
+            "Usage of NODE_ENV isn't allowed. It likely doesn't do what you think it does.",
           type: "MemberExpression",
         },
       ],
