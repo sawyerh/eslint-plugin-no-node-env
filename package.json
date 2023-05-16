@@ -1,13 +1,17 @@
 {
   "name": "eslint-plugin-no-node-env",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Prevent usage of NODE_ENV",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "sawyerh",
+  "author": {
+    "name": "Sawyer Hollenshead",
+    "url": "https://github.com/sawyerh"
+  },
+  "repository": "sawyerh/eslint-plugin-no-node-env",
   "main": "./lib/index.js",
   "exports": "./lib/index.js",
   "scripts": {

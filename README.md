@@ -21,6 +21,22 @@ Add `no-node-env` to the plugins section of your `.eslintrc` configuration file.
 }
 ```
 
+To only apply this rule to a subdirectory, like `src`, you can use the `overrides` section of your ESLint configuration file.
+
+```json
+{
+    "overrides": [
+        {
+            "plugins": ["no-node-env"],
+            "files": ["src/**"],
+            "rules": {
+                "no-node-env/no-node-env": "error"
+            }
+        }
+    ]
+}
+```
+
 ## Rules
 
 <!-- begin auto-generated rules list -->
